@@ -1,0 +1,49 @@
+body {
+  background-color: #f1f5f9;
+  height: 110px;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+}
+
+.pickColorButton {
+  margin-top: 15px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #facc15;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.exactColor {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.pickedColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hexColor {
+  font-size: 16px;
+  text-align: center;
+  margin-left: 4px;
+  font-weight: bold;
+}
+.copied {
+  font-size: 17px;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: bolder;
+  display: none;
+}
